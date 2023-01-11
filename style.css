@@ -1,0 +1,12 @@
+/* universal code */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+.header-banner{
+    width: 100%;
+    background-image: url(images/banner/banner3.png);
+}
+
