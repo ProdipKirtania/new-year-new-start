@@ -41,7 +41,25 @@
 /* background-image: url(images/banner/banner3.png); */
 
 .failure-section{
-    margin: 130px 230px 50px;
+    margin: 130px 220px 80px;
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+.failure-image img{
+    width: 500px;
+}
+.failure-section li{
+     list-style: circle;
+}
+
+.failure-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.failure-title{
+    font-size: 40px;
 }
 
 .plans-section{
