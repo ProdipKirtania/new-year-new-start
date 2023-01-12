@@ -5,11 +5,10 @@
 }
 
 .btn-primary {
-    height: 64px;
     border-radius: 5px;
     background-color: #FFFFFF;
     border: none;
-    padding: 25px 20px;
+    padding: 20px 25px;
     font-weight: 600;
     color: #005FAC;
 }
@@ -24,9 +23,6 @@
 }
 
 .banner-info {
-    /* width: 1600px;
-        height: 808px; */
-    /* margin: 100px 50px; */
     text-align: right;
     padding: 216px 180px 0 750px;
 }
@@ -71,6 +67,7 @@
     color: #005FAC;
 }
 
+/* plans section style*/
 .plans-section {
     margin: 10px 180px 50px;
     padding: 20px;
@@ -99,6 +96,8 @@
     row-gap: 10px;
 }
 
+
+/* objective section style*/
 .objective-section {
     margin: 10px 180px 50px;
     padding: 20px;
@@ -114,7 +113,7 @@
 }
 
 .objective {
-    width: 150px;
+    width: 170px;
 }
 
 .obj-img {
@@ -162,6 +161,34 @@
     background-color: #e65f11;
 }
 
-.call-to-action-section {}
 
-.footer {}
+/* call-to-action section style*/
+.call-to-action-section {
+    margin: 10px 180px 50px;
+}
+
+.call-to-action-img {
+    background-image:
+        linear-gradient(90deg,
+            rgba(8, 83, 156, 0.75),
+            rgba(136, 228, 247, 0.089)), url('images/watch.png');
+            background-repeat: no-repeat;
+            background-position: top right;
+    /* width: 100%; */
+    height: 300px;
+    border-radius: 10px;
+}
+.call-to-action-text{
+    color: #fff;
+    padding: 50px 400px 50px 50px;
+}
+.call-to-action-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* footer section style*/
+.footer {
+    
+}
